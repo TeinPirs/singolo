@@ -1,1 +1,11 @@
 @import url("font.css");
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato Regular", sans-serif;
+  font-size: 1.6rem;
+}
