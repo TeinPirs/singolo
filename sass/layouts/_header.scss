@@ -1,0 +1,32 @@
+.header {
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  font-size: 1.2rem;
+  line-height: 0.6rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.navigation__link > a {
+  text-decoration: none;
+  color: $color-light;
+}
+
+.navigation__link > a:hover {
+  color: #f06c64;
+}
