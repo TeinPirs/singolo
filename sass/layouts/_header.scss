@@ -1,11 +1,20 @@
 .header {
   background-color: #2d303a;
   border-bottom: 6px solid #323746;
+  height: 89px;
 }
 .header__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 26px;
+}
+
+.logo {
+  padding-left: 38px;
+}
+.logo__star {
+  color: $color-primary;
 }
 
 .navigation {
@@ -25,6 +34,7 @@
 .navigation__link > a {
   text-decoration: none;
   color: $color-light;
+  text-transform: uppercase;
 }
 
 .navigation__link > a:hover {
