@@ -12,6 +12,7 @@
 
 .logo {
   padding-left: 38px;
+  cursor: pointer;
 }
 .logo__star {
   color: $color-primary;
@@ -23,12 +24,23 @@
   line-height: 0.6rem;
   font-weight: 700;
   text-align: left;
+  padding-right: 40px;
+  padding-top: 10px;
 }
 
 .navigation__link {
   list-style: none;
-  padding: 0 10px;
+  letter-spacing: 0.01rem;
+  padding: 0 0 0 12px;
   cursor: pointer;
+}
+
+.navigation__link:not(:last-child)::after {
+  content: $point;
+  display: inline-block;
+  line-height: 1px;
+  color: #494e62;
+  padding-left: 12px;
 }
 
 .navigation__link > a {
@@ -38,5 +50,5 @@
 }
 
 .navigation__link > a:hover {
-  color: #f06c64;
+  color: $color-primary;
 }

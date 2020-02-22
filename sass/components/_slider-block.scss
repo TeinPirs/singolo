@@ -1,0 +1,39 @@
+.slider-block {
+  box-sizing: border-box;
+  background-color: $color-primary;
+  height: 600px;
+  border-bottom: 6px solid #ea676b;
+}
+
+.slider-block__chev {
+  cursor: pointer;
+  opacity: 0.25;
+  transition: all 0.3s;
+  position: relative;
+}
+.slider-block__chev:hover {
+  opacity: 1;
+}
+
+.slider-block__chev_prev {
+  bottom: 175px;
+  left: 43px;
+}
+
+.slider-block__iphone_vertical {
+  position: relative;
+  top: 53px;
+  left: 92px;
+}
+
+.slider-block__iphone_horisontal {
+  position: relative;
+  bottom: 69px;
+  left: 160px;
+}
+
+.slider-block__chev_next {
+  transform: rotate(180deg);
+  left: 211px;
+  bottom: 175px;
+}
