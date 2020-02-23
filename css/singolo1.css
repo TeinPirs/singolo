@@ -207,27 +207,27 @@ h4 {
 }
 
 .icon__pencil {
-  background-image: url(assets/image/services/pen.svg);
+  background-image: url(../assets/image/services/pen.svg);
 }
 
 .icon__bulb {
-  background-image: url(assets/image/services/bulb.svg);
+  background-image: url(../assets/image/services/bulb.svg);
 }
 
 .icon__heart {
-  background-image: url(assets/image/services/heart.svg);
+  background-image: url(../assets/image/services/heart.svg);
 }
 
 .icon__phone {
-  background-image: url(assets/image/services/phone.svg);
+  background-image: url(../assets/image/services/phone.svg);
 }
 
 .icon__bubble {
-  background-image: url(assets/image/services/bubble.svg);
+  background-image: url(../assets/image/services/bubble.svg);
 }
 
 .icon__star {
-  background-image: url(assets/image/services/star.svg);
+  background-image: url(../assets/image/services/star.svg);
 }
 
 /*# sourceMappingURL=singolo1.css.map */
