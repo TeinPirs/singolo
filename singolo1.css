@@ -38,6 +38,17 @@ h4 {
   margin: 0;
 }
 
+.icon {
+  width: 59px;
+  height: 59px;
+  border-radius: 29px;
+  border: 2px solid #666d89;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+}
+
 .wrapper {
   max-width: 1020px;
   margin: auto;
@@ -167,17 +178,56 @@ h4 {
 .layout-3-column {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.services {
+  display: flex;
+}
+
+.services__content {
+  padding-left: 20px;
+}
+
+.services__content > h4 {
+  margin-bottom: 10px;
 }
 
 .services__content > p {
   width: 219px;
-  height: 128px;
+  height: 95px;
   font-size: 1.2rem;
   line-height: 2.2rem;
   color: #767e9e;
   font-weight: 400;
   text-align: left;
   margin: 0;
+  text-align: justify;
+}
+
+.icon__pencil {
+  background-image: url(assets/image/services/pen.svg);
+}
+
+.icon__bulb {
+  background-image: url(assets/image/services/bulb.svg);
+}
+
+.icon__heart {
+  background-image: url(assets/image/services/heart.svg);
+}
+
+.icon__phone {
+  background-image: url(assets/image/services/phone.svg);
+}
+
+.icon__bubble {
+  background-image: url(assets/image/services/bubble.svg);
+}
+
+.icon__star {
+  background-image: url(assets/image/services/star.svg);
 }
 
 /*# sourceMappingURL=singolo1.css.map */
