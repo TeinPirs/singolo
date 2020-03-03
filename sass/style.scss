@@ -2,9 +2,12 @@
 @import "font.css";
 // Abstracts
 @import "abstract/constants";
+@import "abstract/mixin";
+@import "abstract/placeholder";
 // Base
 @import "base/base";
-
+@import "base/layouts";
+@import "base/tags";
 // Layouts
 @import "layouts/wrapper";
 @import "layouts/header";
@@ -12,3 +15,4 @@
 // Components
 @import "components/slider-block";
 @import "components/our-servicess";
+@import "components/portfolio";
