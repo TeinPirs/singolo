@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import "font.css";
+.about-us__content > .icon, .tag {
+  transition: all 0.3s ease-out;
+}
+
 body {
   font-family: "Lato", Verdana, sans-serif;
 }
@@ -89,12 +93,12 @@ p {
   text-align: left;
   border-radius: 5px;
 }
-.tag_selected {
-  border: 1px solid #c5c5c5;
-  color: #c5c5c5;
-}
 .tag_bordered {
   border: 1px solid #666d89;
+}
+.tag_bordered:hover {
+  border: 1px solid #c5c5c5;
+  color: #c5c5c5;
 }
 
 .wrapper {
@@ -360,6 +364,10 @@ p {
   border-radius: 16px;
   border: 1px solid #666d89;
   margin-right: 4px;
+  cursor: pointer;
+}
+.about-us__content > .icon:hover {
+  border: 1px solid #eb5055;
 }
 
 .icon__facebook {

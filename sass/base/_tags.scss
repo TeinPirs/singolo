@@ -13,11 +13,12 @@
   font-weight: 400;
   text-align: left;
   border-radius: 5px;
-  &_selected {
-    border: 1px solid #c5c5c5;
-    color: #c5c5c5;
-  }
+  @extend %transition;
   &_bordered {
     border: 1px solid #666d89;
+    &:hover {
+      border: 1px solid #c5c5c5;
+      color: #c5c5c5;
+    }
   }
 }
