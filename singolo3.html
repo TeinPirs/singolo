@@ -2,13 +2,71 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Singolo 3</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Singolo 3</title>
+  <link rel="stylesheet" href="css/singolo3.css" />
 </head>
 
 <body>
+  <section class="qoute">
+    <div class="wrapper qoute__wrapper">
+      <h2 class="qoute__title">Get a Quote</h2>
+      <p class="qoute__text">
+        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+        Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+        lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+        tortor mauris condimentum nibh.
+      </p>
+      <div class="layout-2-column">
+        <div class="qoute__form">
+          <form action="test.php" method="POST">
+            <input type="text" name="name" placeholder="Name (Required)" required />
+            <br />
+            <input type="email" name="email" placeholder="Email (Required)" required />
+            <br />
+            <input type="text" name="subject" placeholder="Subject" /> <br />
+            <textarea name="Describe" id="Describe" cols="30" rows="12"
+              placeholder="Describe your project in detail..."></textarea>
+            <input class="form__submit" type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="qoute__info">
+          <h4 class="info__title">Contact Information</h4>
+          <p class="info__text">
+            Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
+            Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla
+            sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
+            consequat felis.
+          </p>
+          <div class="info__social">
+            <p> <span class="icon icon__location"></span> <span class="info__social_text">Elm St. 14/05
+                Lost City</span> </p>
 
+            <a href="tel:03528 331 86 35"><span class="icon icon__phone"></span> <span class="info__social_link">03528
+                331 86
+                35</span> </a>
+            <br />
+            <a href="mailto:info@singolo.com"><span class="icon icon__mail"></span> <span
+                class="info__social_link">info@singolo.com</span> </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <p class="footer__text">© Copyright 2013</p>
+      <div class="footer__icon">
+        <span class="icon icon__facebook"></span>
+        <span class="icon icon__google"></span>
+        <span class="icon icon__twitter"></span>
+        <span class="icon icon__in"></span>
+      </div>
+    </div>
+
+  </footer>
 </body>
 
 </html>

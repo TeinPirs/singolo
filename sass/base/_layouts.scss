@@ -4,3 +4,6 @@
 .layout-4-column {
   @include columns(23%);
 }
+.layout-2-column {
+  @include columns(auto);
+}

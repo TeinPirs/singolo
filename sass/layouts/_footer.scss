@@ -1,0 +1,30 @@
+.footer {
+  height: 76px;
+  background-color: #2d303a;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.footer__wrapper {
+  padding-top: 18px;
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__text {
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+}
+.footer__icon {
+  align-items: right;
+  > .icon {
+    margin: 1px 3px 0 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 1px solid #666d89;
+  }
+}
