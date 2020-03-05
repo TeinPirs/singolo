@@ -26,5 +26,9 @@
     height: 32px;
     border-radius: 16px;
     border: 1px solid #666d89;
+    &:hover {
+      cursor: pointer;
+      border: 1px solid #f48c8f;
+    }
   }
 }

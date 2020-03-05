@@ -205,6 +205,10 @@ p {
   border-radius: 16px;
   border: 1px solid #666d89;
 }
+.footer__icon > .icon:hover {
+  cursor: pointer;
+  border: 1px solid #f48c8f;
+}
 
 .slider-block {
   box-sizing: border-box;
