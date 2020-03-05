@@ -418,20 +418,20 @@ p {
 }
 
 .icon__facebook {
-  background-image: url(/assets/image/social-icons/facebook.png);
+  background-image: url(../assets/image/social-icons/facebook.png);
   color: #666d89;
 }
 
 .icon__google {
-  background-image: url(/assets/image/social-icons/google+.png);
+  background-image: url(../assets/image/social-icons/google+.png);
 }
 
 .icon__twitter {
-  background-image: url(/assets/image/social-icons/twitter.png);
+  background-image: url(../assets/image/social-icons/twitter.png);
 }
 
 .icon__in {
-  background-image: url(/assets/image/social-icons/linkedin.png);
+  background-image: url(../assets/image/social-icons/linkedin.png);
 }
 
 .qoute {
@@ -536,19 +536,19 @@ p {
 }
 
 .icon__location {
-  background-image: url(/assets/image/social-icons/location.png);
+  background-image: url(../assets/image/social-icons/location.png);
   width: 13px;
   height: 13px;
 }
 
 .icon__phone {
-  background-image: url(/assets/image/social-icons/phone.png);
+  background-image: url(../assets/image/social-icons/phone.png);
   width: 13px;
   height: 13px;
 }
 
 .icon__mail {
-  background-image: url(/assets/image/social-icons/mail.png);
+  background-image: url(../assets/image/social-icons/mail.png);
   width: 13px;
   height: 13px;
 }
