@@ -1,1 +1,1 @@
-<https://teinpirs.github.io/singolo/singolo1.html>
+<https://teinpirs.github.io/singolo/index.html>
