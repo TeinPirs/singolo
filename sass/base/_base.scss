@@ -4,7 +4,7 @@ html {
 
 body {
   font-size: 1.8rem;
-  font-family: "Lato", Verdana, sans-serif;
+  @extend %font-add;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +15,7 @@ h1 {
   color: $color-light;
   font-weight: 700;
   text-align: left;
-  letter-spacing: 0.01rem;
+  letter-spacing: -0.02rem;
 }
 
 h2 {
@@ -25,6 +25,7 @@ h2 {
   font-weight: 900;
   text-align: left;
   margin: 0;
+  letter-spacing: -0.02rem;
 }
 
 h4 {
@@ -34,13 +35,13 @@ h4 {
   font-weight: 900;
   text-align: left;
   margin: 0;
+  letter-spacing: -0.02rem;
+}
+p {
+  letter-spacing: -0.02rem;
 }
 
 .icon {
-  width: 59px;
-  height: 59px;
-  border-radius: 29px;
-  border: 2px solid #666d89;
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center;

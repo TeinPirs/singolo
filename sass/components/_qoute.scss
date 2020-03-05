@@ -1,0 +1,141 @@
+.qoute {
+  height: 654px;
+  background-color: #f06c64;
+  box-sizing: border-box;
+  border-bottom: 6px solid #ea676b;
+  color: #f0d8d9;
+}
+.qoute__wrapper {
+  max-width: 940px;
+}
+.qoute__title {
+  padding-top: 70px;
+  color: #f0d8d9;
+}
+.qoute__text {
+  margin: 29px 0 39px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.qoute__form {
+  & form {
+    width: 589px;
+    text-align: center;
+    > input {
+      width: 589px;
+      height: 38px;
+      border: 1px solid #d6564f;
+      border-radius: 5px;
+      background-color: #d6564f;
+      border: none;
+      margin-bottom: 15px;
+      padding: 0 15px;
+      color: #f0d8d9;
+      &::placeholder {
+        font-size: 12px;
+        line-height: 22px;
+        color: #f48c8f;
+        font-family: "Lato";
+        font-weight: 400;
+        text-align: left;
+      }
+      &:focus {
+        border: 1px solid #f0d8d9;
+        outline: none;
+      }
+    }
+    > input[type="submit"] {
+      width: 120px;
+    }
+
+    & textarea {
+      width: 589px;
+      border-radius: 5px;
+      background-color: #d6564f;
+      border: 1px solid #d6564f;
+      border: none;
+      margin-bottom: 15px;
+      resize: none;
+      height: 172px;
+      padding: 15px 15px;
+      color: #f0d8d9;
+      &:focus {
+        border: 1px solid #f0d8d9;
+        outline: none;
+      }
+      &::placeholder {
+        font-size: 12px;
+        line-height: 22px;
+        color: #f48c8f;
+        font-family: "Lato";
+        font-weight: 400;
+        text-align: left;
+      }
+    }
+  }
+}
+.qoute__info {
+  max-width: 300px;
+}
+.info__title {
+  font-size: 18px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+}
+.info__text {
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+}
+
+.icon__location {
+  background-image: url(/assets/image/social-icons/location.png);
+  width: 13px;
+  height: 13px;
+}
+.icon__phone {
+  background-image: url(/assets/image/social-icons/phone.png);
+  width: 13px;
+  height: 13px;
+}
+.icon__mail {
+  background-image: url(/assets/image/social-icons/mail.png);
+  width: 13px;
+  height: 13px;
+}
+.info__social {
+  padding-top: 8px;
+  > p {
+    margin: 0px auto;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+  }
+  > * > .icon {
+    margin-right: 8px;
+  }
+  > a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+  }
+}
+.form__submit {
+  border: 1px solid #f48c8f;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #f0d8d9;
+  }
+}

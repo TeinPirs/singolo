@@ -1,0 +1,24 @@
+.tags {
+  display: flex;
+  > * {
+    margin-right: 10px;
+  }
+}
+.tag {
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  border-radius: 5px;
+  @extend %transition;
+  &_bordered {
+    border: 1px solid #666d89;
+    &:hover {
+      border: 1px solid #c5c5c5;
+      color: #c5c5c5;
+    }
+  }
+}
